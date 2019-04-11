@@ -1,4 +1,4 @@
-class myBall
+class ball
 {
     constructor()
     {
