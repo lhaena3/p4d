@@ -3,7 +3,7 @@ var myBall;
 function setup() {
     createCanvas(600, 300);
     
-    myBall = new myBall();
+    myBall = new ball();
   
     console.log(myBall);
 
