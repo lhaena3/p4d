@@ -1,4 +1,4 @@
-var myBubble;
+var myBubble = [];
 
 function setup(){
     createCanvas(400, 600);
