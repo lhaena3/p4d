@@ -14,5 +14,8 @@ class bubble
     }
     bubbleRises(){
         this.y = this.y - 1;
+        if(this.y <= 0){
+            this.y = 600;
+        }
     }
 }
