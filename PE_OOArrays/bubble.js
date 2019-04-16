@@ -5,7 +5,7 @@ class bubble
         this.x = random(0,400);
         this.y = random(0,600);
         this.size = random(10,30);
-        this.alpha = random(50,100)
+        this.alpha = random(50,100);
     }
     drawAllBubbles()
     {
