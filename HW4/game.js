@@ -33,8 +33,8 @@ function setup() {
 
 function draw() {
     background(100); 
-    image(death_left, deathLeftX,430);    
-    image(death_right, deathRightX,430);  
+    image(death_left, deathLeftX,430);//death object_left    
+    image(death_right, deathRightX,430);//death object_right 
     roadMarkings.update();
     roadMarkings.offscreen();
     roadMarkings.show();
@@ -115,26 +115,5 @@ function draw() {
         fill("black");
         text('GAME OVER', width/2, height/2);
     }
-    
-
-    resetButton();
-    
-    function resetButton(){
-        rectMode(CENTER);
-        stroke(255);
-        strokeWeight(2);
-        fill(0);
-        rect(320,45,130,50,10);
-        textAlign(CENTER);
-        textSize(30);
-        text('RESET', 320,55);
-        if (mouseX > 255 && mouseX < 385 && mouseY > 20 &&mouseY < 70 )
-            {
-                
-            }
-        
-    }
-    
-    
     
 } 	
